@@ -1,5 +1,4 @@
 import boto3
-
 ecr_client = boto3.client('ecr')
 
 repository_name = "my_monitoring_app_image"
